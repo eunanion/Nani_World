@@ -1,0 +1,23 @@
+
+public class Ch4_3 {
+
+	public static void main(String[] args) {
+		
+		double sum = 0;
+		for (int i =1; i<10 ; i++) {
+			
+			double k = i;
+			System.out.print(k+"/"+(k+1));
+			if(i==9) {
+				System.out.print(" = ");
+			}else {
+				System.out.print("+");
+			}
+		
+			System.out.print(sum);
+			//하다말았음
+		}
+
+	}
+
+}

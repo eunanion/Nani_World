@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\한국ICT인재개발원교육\자바\12월 3주차 코드\20211216.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\한국ICT인재개발원교육\자바\12월 3주차 코드\20211215.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\한국ICT인재개발원교육\자바\12월 2주차 코드\20211214.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\한국ICT인재개발원교육\자바\12월 2주차 코드\20211213.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\한국ICT인재개발원교육\자바\12월 2주차 코드\20211208.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\한국ICT인재개발원교육\자바\12월 2주차 코드\20211207.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\한국ICT인재개발원교육\자바\12월 2주차 코드\20211206.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\20211202.zip"/>
+			<item value="C:\Users\buffa\OneDrive\바탕 화면\20211130.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="PreferencesExportWizard">
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
+</section>

@@ -1,0 +1,12 @@
+package overloading;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		Calculator cal1 = new Calculator();
+		plus(3);
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package game.interaction;
+
+public class Main04 {
+
+	public static void main(String[] args) {
+	   Knight a = new Knight();
+	   Archer b = new Archer();
+	   Warrior c = new Warrior();
+	   Troll d = new Troll();
+	   Orc e = new Orc();
+	   Mushroom f = new Mushroom();
+	   
+	   
+	   a.huntMushroom(f);
+	   b.huntMushroom(f);
+	   c.huntMushroom(f);
+	   a.huntMushroom(f);
+	   b.huntMushroom(f);
+	   c.huntMushroom(f);
+	   a.huntMushroom(f);
+	   b.huntMushroom(f);
+	   c.huntMushroom(f);
+	   a.getInfo();
+	   b.getInfo();
+	   c.getInfo();
+
+	   
+
+	}
+
+}

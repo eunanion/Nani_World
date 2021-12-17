@@ -1,0 +1,11 @@
+
+public class Orc extends Monster {
+
+	public static void main(String[] args) {
+		
+		Monster a = new Orc("오크",5,2);
+		
+
+	}
+
+}

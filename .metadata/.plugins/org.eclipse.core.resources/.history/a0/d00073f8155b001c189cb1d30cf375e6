@@ -1,0 +1,13 @@
+
+public class ch2_2 {
+
+	public static void main(String[] args) {
+		System.out.println("한문자 "+ (char)a );
+		System.out.println("문자열 "+ (String)a);
+		System.out.println("정수 : "+ (int)100);
+		System.out.println("실수 : "+);
+		System.out.println("불리형 : " +);
+
+	}
+
+}

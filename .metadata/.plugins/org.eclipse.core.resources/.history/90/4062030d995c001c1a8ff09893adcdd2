@@ -1,0 +1,15 @@
+package overloading;
+
+public class Calculator {
+	
+	public Calculator (int a , int b) {
+		
+		
+ 		
+		
+		
+		
+	}
+	
+
+}

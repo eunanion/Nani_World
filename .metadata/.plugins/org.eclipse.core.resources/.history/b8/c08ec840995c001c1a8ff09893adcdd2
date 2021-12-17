@@ -1,0 +1,10 @@
+package overloading;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		plus(3,4);
+
+	}
+
+}

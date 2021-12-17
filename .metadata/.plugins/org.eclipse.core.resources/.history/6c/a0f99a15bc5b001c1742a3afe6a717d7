@@ -1,0 +1,19 @@
+package heapmemory;
+
+public class StringComparison {
+
+	public static void main(String[] args) {
+		String str1 = "Hello";
+		String str2 = "Hello";
+		
+		//일반 변수의 배정 값	 조회시 .hashcode()를 사용
+
+		System.out.println(str1.hashCode());
+		System.out.println(str2.hashCode());
+		
+		//문자열은 일부분 변경 불가능
+		
+		str1[0] ='Q';
+	}
+
+}

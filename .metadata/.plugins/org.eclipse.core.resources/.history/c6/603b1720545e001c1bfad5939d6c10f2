@@ -1,0 +1,24 @@
+package game.interaction;
+
+public class Main03 {
+
+	public static void main(String[] args) {
+		Knight k = new Knight();
+		Archer z = new Archer();
+		
+		Orc o = new Orc();
+		Troll t = new Troll();
+		
+		
+		z.orcHunt(o);
+		z.orcHunt(o);
+		z.orcHunt(o);
+		z.orcHunt(o);
+		z.orcHunt(o);
+		z.orcHunt(o);
+		z.orcHunt(o);
+		
+		z.getInfo();
+	}
+
+}

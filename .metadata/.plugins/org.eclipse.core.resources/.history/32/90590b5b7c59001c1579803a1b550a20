@@ -1,0 +1,16 @@
+package constructure;
+
+public class Main02P204 {
+	
+	public static void main(String[] args) {
+		
+		BasketballPlayer a= new BasketballPlayer(175,10
+				6);
+		
+		
+		a.dunkShoot();
+		
+	}
+	
+}
+	
