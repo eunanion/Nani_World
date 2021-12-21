@@ -4,6 +4,7 @@ public class Main1P276 {
 
 	public static void main(String[] args) {
 		Asean.showPre();
+		// 객체생성없이도 static영역에서 바로 메서드 실행가능
 		System.out.println(Asean.getPresentationScore() );
 		
 		Asean a1 = new Asean(20,100,90);
