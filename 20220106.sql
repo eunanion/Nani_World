@@ -120,10 +120,10 @@ CREATE TABLE membership(
     INSERT INTO membership VALUES ('노영웅',37000);
     INSERT INTO membership VALUES ('김철수',500);
     SELECT *FROM membership;
-    
+     SELECT * FROM student s INNER JOIN membership m ON s.user_name = m.user_name;
     
     -- 위 데이터셋(학생 student, 회원포인트 membership)에 대해 left 조인을 해주세요
-    SELECT * FROM student LEFT OUTER JOIN membership ON  student.user_name = membership.user_name
+    SELECT * FROM student  LEFT OUTER JOIN membership ON  student.user_name = membership.user_name
     UNION
     SELECT * FROM student RIGHT OUTER JOIN membership ON student.user_name = membership.user_name;
     
@@ -134,5 +134,9 @@ CREATE TABLE membership(
     UNION
     SELECT membership.user_name,student.user_addr,membership.user_point  FROM student RIGHT OUTER JOIN membership ON student.user_name = membership.user_name;
     
+    USE ict_pratice;
+  
+    
+    SELECT * FROM usertbl;
     
 	
